@@ -20,7 +20,7 @@ public class PetDbHelper extends SQLiteOpenHelper {
                 " (" + PetEntry._ID + " INTEGER, " + PetEntry.COLUMN_PET_NAME +
                 " TEXT, " + PetEntry.COLUMN_PET_BREED + " TEXT, " +
                 PetEntry.COLUMN_PET_GENDER + " INTEGER, " + PetEntry.COLUMN_PET_WEIGHT
-                + "weight INTEGER);";
+                + " INTEGER);";
         db.execSQL(SQL_CREATE_PETS_TABLE);
     }
 
